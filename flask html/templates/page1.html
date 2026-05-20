@@ -1,0 +1,52 @@
+{% extends 'layout.html' %}
+
+{% block title %}Meu Currículo{% endblock %}
+
+{% block content %}
+<div class="resume-container">
+    <h1>Seu Nome Completo</h1>
+    <p class="contact-info">
+        Email: seuemail@email.com | Telefone: (11) 99999-9999<br>
+        LinkedIn: linkedin.com | Cidade - Estado
+    </p>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Profissional dedicado com experiência na área de [Sua Área]. Busco novas oportunidades para aplicar meus conhecimentos em [Habilidade 1] e [Habilidade 2], contribuindo para o crescimento da empresa.</p>
+    </section>
+
+    <section id="experiencia">
+        <h2>Experiência Profissional</h2>
+        <div class="experience-item">
+            <p class="job-title">Cargo - Empresa | <span class="date">Janeiro 2020 - Atual</span></p>
+            <ul>
+                <li>Responsável pela gestão de projetos e equipes.</li>
+                <li>Implementação de novas tecnologias para aumentar a produtividade.</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <p class="job-title">Cargo Anterior - Empresa B | <span class="date">Junho 2017 - Dezembro 2019</span></p>
+            <ul>
+                <li>Suporte técnico ao cliente e manutenção de sistemas.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="educacao">
+        <h2>Educação</h2>
+        <div class="education-item">
+            <p><strong>Nome da Instituição</strong> - Curso de Graduação | <span class="date">2013 - 2017</span></p>
+        </div>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Habilidade Técnica 1 (ex: HTML/CSS)</li>
+            <li>Habilidade Técnica 2 (ex: Gestão de Projetos)</li>
+            <li>Ferramenta/Software (ex: Excel Avançado)</li>
+        </ul>
+    </section>
+</div>
+{% endblock %}
+
